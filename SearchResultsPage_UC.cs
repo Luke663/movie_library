@@ -42,6 +42,9 @@ namespace Rep
 
             searchItems = new SortedList<string, SearchResult>();
 
+            for (int i = searchresults_flowpanel.Controls.Count - 1; i > 0; i--)
+                searchresults_flowpanel.Controls[i].Dispose();
+
             for (int i = 0; i < searchResults.Count; i += Constants.NUMBER_OF_ENTRY_FIELDS)
             {
                 SearchResult item = new SearchResult();

@@ -72,6 +72,9 @@ namespace Rep
             tiles = new Dictionary<ViewTile, string[]>();
             int numberOfReceivedFields = 5;
 
+            for (int i = view_flowLayoutPanel.Controls.Count - 1; i > 1; i--)
+                view_flowLayoutPanel.Controls[i].Dispose();
+
             for (int i = 0; i < tileValues.Count; i += numberOfReceivedFields)
             {
                 ViewTile item = new ViewTile();

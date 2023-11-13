@@ -136,7 +136,7 @@ namespace Rep
             viewEntryPage_UC1.DisplayResult(resultValues);
             SwitchPages(Constants.GetPageIndex("RESULT"));
 
-            await Task.Delay(1000); // Allows the result's page to load fully before re-loading new database info in the background
+            await Task.Delay(500); // Allows the result's page to load fully before re-loading new database info in the background
             PrepareHomePage();
         }
 
