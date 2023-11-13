@@ -1,5 +1,4 @@
 # movie_library
----------------------------------------------------------------------------
 
 ### Description
 
@@ -19,8 +18,11 @@ This is a C# WinForms project designed to use web scraping and allow the user to
 </p>
 
 *Screenshot 1). The home page.*
+
 *Screenshot 2). The search results page.*
+
 *Screenshot 3). The view entry page, allows the user to view an entry in detail and also delete and add notes to an entry.*
+
 *Screenshot 4). The view all page, providing tiles for all stored entries and the ability to sort and filter them.*
 
 (*full size images can be found [here](./screenshots)*)
